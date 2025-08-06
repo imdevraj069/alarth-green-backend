@@ -7,10 +7,6 @@ dotenv.config();
 
 const usersToSeed = [
   { username: 'admin', password: 'password123', role: 'Admin' },
-  { username: 'agent1', password: 'password123', role: 'Agent' },
-  { username: 'assigner1', password: 'password123', role: 'Assigner' },
-  { username: 'installer1', password: 'password123', role: 'Installer' },
-  { username: 'reviewer1', password: 'password123', role: 'Reviewer' },
 ];
 
 const seedDB = async () => {
